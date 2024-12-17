@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    background-color: cornsilk;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+}
+a {
+    color: crimson;
+}
+h1 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.anchor-box {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+.anchor-box:hover {
+    transform: scale(1.05);
+    background-color: #444;
+}
+.anchor-box a {
+    color: white;
+    text-decoration: none;
+}
